@@ -1,0 +1,27 @@
+body{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .content{
+        #addInp{
+            width: 300px;
+            border:1px solid #ccc;
+            height: 30px;
+
+        }
+
+        #addBtn{
+            width: 100px;
+            height: 34px;
+            background-color: #ccc;
+            border: none;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #aaa;
+            }
+        }
+    }
+}
